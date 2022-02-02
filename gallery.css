@@ -1,0 +1,84 @@
+.container1{
+    text-align: center;
+    margin-top: 120px;   
+    overflow-x: auto;
+    overflow: visible;
+    white-space: nowrap;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.isBlank{
+    position: relative;
+    display: inline-block;
+    width: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.photoTicket{
+    position:relative;
+    border-radius: 8px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 10px;
+    width: 280px;
+    height: 360px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.26);
+    transition: 0.5s;
+}
+
+.posterImg img{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.photoTicket:hover{
+    transform:scaleX(1.1) scaleY(1.1);
+}
+
+.gradiant{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8));
+    z-index: 1;
+}
+
+.textWrap{
+    position: absolute;
+    bottom:0;
+    padding: 18px;
+    z-index: 1;
+    text-align: left;
+    white-space: normal;
+}
+.textWrap h1{
+    color: white;
+    font-size: 22px;
+}
+.textWrap h2{
+    color: white;
+    font-size: 17px;
+}
+.textWrap p{
+    color:white;
+    font-size: 11.5px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.container2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.arrow{
+    position: fixed;
+    display: inline-block;
+}
